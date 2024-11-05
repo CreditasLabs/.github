@@ -9,8 +9,8 @@ on:
       - master
   workflow_dispatch: {}
   schedule:
-    # Executa diariamente às 13:52 no horário de Brasília (16:52 UTC)
-    - cron: "28 17 * * *"
+    # Executa diariamente às 16:38 no horário de Brasília (19:38 UTC)
+    - cron: "38 19 * * *"
 
 name: Semgrep
 jobs:
