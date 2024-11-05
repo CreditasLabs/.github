@@ -10,7 +10,7 @@ on:
   workflow_dispatch: {}
   schedule:
     # Executa diariamente às 13:52 no horário de Brasília (16:52 UTC)
-    - cron: "54 16 * * *"
+    - cron: "28 17 * * *"
 
 name: Semgrep
 jobs:
